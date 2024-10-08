@@ -1,6 +1,6 @@
 {
     "express": {
-        "arestas": {
+        "dependencias": {
             "accepts": 1,
             "body-parser": 1,
             "serve-static": 1
@@ -12,7 +12,7 @@
         "cor": "magenta"
     },
     "body-parser": {
-        "arestas": {
+        "dependencias": {
             "bytes": 1,
             "content-type": 1,
             "raw-body": 1
@@ -24,7 +24,7 @@
         "cor": "yellow"
     },
     "serve-static": {
-        "arestas": {
+        "dependencias": {
             "escape-html": 1,
             "parseurl": 1
         },
@@ -35,7 +35,7 @@
         "cor": "yellow"
     },
     "accepts": {
-        "arestas": {
+        "dependencias": {
             "negotiator": 1,
             "mime-types": 1
         },
@@ -46,7 +46,7 @@
         "cor": "yellow"
     },
     "bytes": {
-        "arestas": {
+        "dependencias": {
             "bits": 1
         },
         "posicao": [
@@ -56,7 +56,7 @@
         "cor": "red"
     },
     "content-type": {
-        "arestas": {
+        "dependencias": {
         },
         "posicao": [
             2,
@@ -65,7 +65,7 @@
         "cor": "red"
     },
     "raw-body": {
-        "arestas": {
+        "dependencias": {
         },
         "posicao": [
             2,
@@ -74,7 +74,7 @@
         "cor": "red"
     },
     "escape-html": {
-        "arestas": {
+        "dependencias": {
         },
         "posicao": [
             2,
@@ -83,7 +83,7 @@
         "cor": "red"
     },
     "parseurl": {
-        "arestas": {
+        "dependencias": {
             "parseint": 1,
             "parsefloat": 1
         },
@@ -94,7 +94,7 @@
         "cor": "red"
     },
     "negotiator": {
-        "arestas": {
+        "dependencias": {
             "osf": 1
         },
         "posicao": [
@@ -104,7 +104,7 @@
         "cor": "red"
     },
     "mime-types": {
-        "arestas": {
+        "dependencias": {
         },
         "posicao": [
             2,
@@ -113,7 +113,7 @@
         "cor": "red"
     },
     "bits": {
-        "arestas": {
+        "dependencias": {
         },
         "posicao": [
             3,
@@ -122,7 +122,7 @@
         "cor": "pink"
     },
     "osf": {
-        "arestas": {
+        "dependencias": {
             "trader": 1
         },
         "posicao": [
@@ -132,7 +132,7 @@
         "cor": "pink"
     },
     "trader": {
-        "arestas": {
+        "dependencias": {
         },
         "posicao": [
             4,
@@ -141,7 +141,7 @@
         "cor": "cyan"
     },
     "parseint": {
-        "arestas": {
+        "dependencias": {
         },
         "posicao": [
             3,
@@ -150,7 +150,7 @@
         "cor": "pink"
     },
     "parsefloat": {
-        "arestas": {
+        "dependencias": {
         },
         "posicao": [
             3,
