@@ -1,0 +1,161 @@
+{
+    "express": {
+        "arestas": {
+            "accepts": 1,
+            "body-parser": 1,
+            "serve-static": 1
+        },
+        "posicao": [
+            0,
+            -5
+        ],
+        "cor": "magenta"
+    },
+    "body-parser": {
+        "arestas": {
+            "bytes": 1,
+            "content-type": 1,
+            "raw-body": 1
+        },
+        "posicao": [
+            1,
+            -1
+        ],
+        "cor": "yellow"
+    },
+    "serve-static": {
+        "arestas": {
+            "escape-html": 1,
+            "parseurl": 1
+        },
+        "posicao": [
+            1,
+            -8
+        ],
+        "cor": "yellow"
+    },
+    "accepts": {
+        "arestas": {
+            "negotiator": 1,
+            "mime-types": 1
+        },
+        "posicao": [
+            1,
+            -5
+        ],
+        "cor": "yellow"
+    },
+    "bytes": {
+        "arestas": {
+            "bits": 1
+        },
+        "posicao": [
+            2,
+            0
+        ],
+        "cor": "red"
+    },
+    "content-type": {
+        "arestas": {
+        },
+        "posicao": [
+            2,
+            -1
+        ],
+        "cor": "red"
+    },
+    "raw-body": {
+        "arestas": {
+        },
+        "posicao": [
+            2,
+            -2
+        ],
+        "cor": "red"
+    },
+    "escape-html": {
+        "arestas": {
+        },
+        "posicao": [
+            2,
+            -7
+        ],
+        "cor": "red"
+    },
+    "parseurl": {
+        "arestas": {
+            "parseint": 1,
+            "parsefloat": 1
+        },
+        "posicao": [
+            2,
+            -9
+        ],
+        "cor": "red"
+    },
+    "negotiator": {
+        "arestas": {
+            "osf": 1
+        },
+        "posicao": [
+            2,
+            -4
+        ],
+        "cor": "red"
+    },
+    "mime-types": {
+        "arestas": {
+        },
+        "posicao": [
+            2,
+            -6
+        ],
+        "cor": "red"
+    },
+    "bits": {
+        "arestas": {
+        },
+        "posicao": [
+            3,
+            0
+        ],
+        "cor": "pink"
+    },
+    "osf": {
+        "arestas": {
+            "trader": 1
+        },
+        "posicao": [
+            3,
+            -4
+        ],
+        "cor": "pink"
+    },
+    "trader": {
+        "arestas": {
+        },
+        "posicao": [
+            4,
+            -4
+        ],
+        "cor": "cyan"
+    },
+    "parseint": {
+        "arestas": {
+        },
+        "posicao": [
+            3,
+            -8
+        ],
+        "cor": "pink"
+    },
+    "parsefloat": {
+        "arestas": {
+        },
+        "posicao": [
+            3,
+            -10
+        ],
+        "cor": "pink"
+    }
+}
